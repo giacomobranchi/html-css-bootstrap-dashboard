@@ -18,16 +18,26 @@
     <header id="header">
         <nav class="navbar bg-body-tertiary">
             <div class="container-fluid justify-content-between bg-white">
-                <div class="col-1">
-                    <a class=" navbar-brand me-0" href="#"><img class="img-fluid" src="./assets/img/mobile-logo.png"
-                            alt=""></a>
+                <div class="col-1 col-md-2">
+                    <a class=" navbar-brand me-0 d-md-none" href="#"><img class="img-fluid"
+                            src="./assets/img/mobile-logo.png" alt=""></a>
+                    <a class=" navbar-brand d-none d-md-block" href="#"><img class="img-fluid"
+                            src="./assets/img/logo.svg" alt=""></a>
                 </div>
-                <form class="d-flex col-9" role="search">
+                <form class="d-flex col-8" role="search">
                     <input class="form-control me-2" type="search" placeholder="Prova a cercare: Lezioni di Laravel"
                         aria-label="Search">
 
                 </form>
-                <div class="col-1">
+                <div class="col-2 d-flex justify-content-center">
+
+                    <button class="btn btn-outline border-0 d-none d-md-inline-block" type="submit"><i
+                            class="fa-solid fa-list"></i></button>
+                    <button class="btn btn-outline border-0 d-none d-md-inline-block" type="submit"><i
+                            class="fa-solid fa-circle-question"></i></button>
+                    <button class="btn btn-outline border-0 d-none d-md-inline-block" type="submit"><i
+                            class="fa-solid fa-ellipsis-vertical"></i></button>
+
                     <button class="btn btn-outline-warning border-0" type="submit"><i
                             class="fa-solid fa-bell"></i></button>
                 </div>
