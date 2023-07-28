@@ -1,7 +1,15 @@
+#header {
+    height: 58px;
+}
+
 #sidebar {
     width: 70px;
     background-color: #0f263c;
-    height: calc(100vh - 60px);
+    height: 100%;
+}
+
+#main {
+    height: calc(100vh - 58px);
 }
 
 nav {
@@ -18,10 +26,23 @@ nav .logo_small {
 
 .site_main {
     width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 .site_main header {
     background-color: #1b72e8;
+}
+
+.floating_card {
+    height: calc(100vh - 58px);
+
+}
+
+tbody img {
+    width: 30px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
 }
 
 @media screen and (min-width:768px) {
