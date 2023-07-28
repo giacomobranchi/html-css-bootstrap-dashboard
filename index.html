@@ -38,8 +38,16 @@
                     <button class="btn btn-outline border-0 d-none d-lg-inline-block" type="submit"><i
                             class="fa-solid fa-ellipsis-vertical"></i></button>
 
-                    <button class="btn btn-outline-warning border-0" type="submit"><i
-                            class="fa-solid fa-bell"></i></button>
+                    <div class="btn-group dropstart">
+                        <button class="btn btn-outline-warning border-0" data-bs-toggle="dropdown"
+                            data-bs-display="static" aria-expanded="false" type="submit"><i
+                                class="fa-solid fa-bell"></i></button>
+                        <ul class="dropdown-menu dropdown-menu-start dropdown-menu-lg-start">
+                            <li><button class="dropdown-item" type="button">Action</button></li>
+                            <li><button class="dropdown-item" type="button">Another action</button></li>
+                            <li><button class="dropdown-item" type="button">Something else here</button></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -89,7 +97,7 @@
                         <div class="col-12 col-lg-8">
                             <div class="card my-4">
                                 <div class="card-header">
-                                    <h1>Featured</h1>
+                                    <h2>Featured</h2>
                                 </div>
                                 <div class="card-body">
                                     <table class="table">
@@ -221,7 +229,7 @@
                             <!-- #featured -->
                             <div class="card my-4">
                                 <div class="card-header">
-                                    <h1>F.A.Q.</h1>
+                                    <h2>F.A.Q.</h2>
                                 </div>
                                 <div class="card-body">
                                     <div class="accordion" id="accordionExample">
@@ -287,9 +295,9 @@
                         <div class="col-12 col-lg-4">
                             <div class="card mb-4 my-lg-4">
                                 <div class="card-header">
-                                    <h1>
+                                    <h2>
                                         Todo
-                                    </h1>
+                                    </h2>
                                 </div>
                                 <div class="card-body">
                                     <div class="card">
@@ -330,18 +338,17 @@
                             <div class="card my-4">
                                 <img src=" ./assets/img/stats.jpeg" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk of the card's content.</p>
+                                    <h5 class="card-title">Utenti Attivi</h5>
+                                    <p class="card-text">Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
                                 </div>
                                 <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">An item</li>
-                                    <li class="list-group-item">A second item</li>
-                                    <li class="list-group-item">A third item</li>
+                                    <li class="list-group-item">Gennaio: 1200</li>
+                                    <li class="list-group-item">Febbraio: 800</li>
+                                    <li class="list-group-item">Marzo: 1500</li>
                                 </ul>
                                 <div class="card-body">
-                                    <a href="#" class="card-link">Card link</a>
-                                    <a href="#" class="card-link">Another link</a>
+                                    <a href="#" class="card-link">Visualizza report approfondito</a>
+
                                 </div>
                             </div>
                         </div>
